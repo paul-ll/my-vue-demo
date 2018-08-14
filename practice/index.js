@@ -1,1 +1,1 @@
-import './instance'
+import './lifecycle'

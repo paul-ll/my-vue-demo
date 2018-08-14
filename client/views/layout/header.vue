@@ -5,10 +5,10 @@
 </template>
 <script>
   export default{
-    computed:{
-      $style(){
-        return{
-          mainHeader:''
+    computed: {
+      $style () {
+        return {
+          mainHeader: ''
         }
       }
     }
