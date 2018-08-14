@@ -3,6 +3,17 @@
     <h1>JTodo</h1>
   </header>
 </template>
+<script>
+  export default{
+    computed:{
+      $style(){
+        return{
+          mainHeader:''
+        }
+      }
+    }
+  }
+</script>
 
 
 <style lang="stylus" module>
