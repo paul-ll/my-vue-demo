@@ -1,1 +1,1 @@
-vue+vuex+vu-router+mongo
+vue+vuex+vue-router+mongo
