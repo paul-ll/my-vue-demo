@@ -1,0 +1,111 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/lvlei/.nvm/versions/node/v7.6.0/bin/node',
+1 verbose cli   '/Users/lvlei/.nvm/versions/node/v7.6.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'eslint-config-standard@next' ]
+2 info using npm@4.1.2
+3 info using node@v7.6.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData eslint-config-standard@next
+8 silly fetchNamedPackageData eslint-config-standard
+9 silly mapToRegistry name eslint-config-standard
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'eslint-config-standard',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'eslint-config-standard',
+12 silly mapToRegistry   name: 'eslint-config-standard',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/eslint-config-standard
+14 verbose request uri https://registry.npmjs.org/eslint-config-standard
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 17:02:45
+17 verbose request using bearer token for auth
+18 verbose request id 05f98773d44944fb
+19 http request GET https://registry.npmjs.org/eslint-config-standard
+20 http 200 https://registry.npmjs.org/eslint-config-standard
+21 verbose headers { date: 'Mon, 03 Sep 2018 09:02:46 GMT',
+21 verbose headers   'content-type': 'application/octet-stream',
+21 verbose headers   'content-length': '113519',
+21 verbose headers   connection: 'close',
+21 verbose headers   'set-cookie': [ '__cfduid=d7fca9b08ba74c9d48d66938e2796c6811535965366; expires=Tue, 03-Sep-19 09:02:46 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'accept-ranges': 'bytes',
+21 verbose headers   'cf-ray': '45470a13fa076dc6-SJC',
+21 verbose headers   etag: '"4e9312df757b900be96bfacb1771f37d"',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   'last-modified': 'Tue, 28 Aug 2018 23:12:52 GMT',
+21 verbose headers   vary: 'accept-encoding, accept',
+21 verbose headers   'x-amz-meta-rev': '130-353e2d7712484a4ca0f4288cc7849d30',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 200,
+22 silly get   { date: 'Mon, 03 Sep 2018 09:02:46 GMT',
+22 silly get     'content-type': 'application/octet-stream',
+22 silly get     'content-length': '113519',
+22 silly get     connection: 'close',
+22 silly get     'set-cookie': [ '__cfduid=d7fca9b08ba74c9d48d66938e2796c6811535965366; expires=Tue, 03-Sep-19 09:02:46 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     'cf-ray': '45470a13fa076dc6-SJC',
+22 silly get     etag: '"4e9312df757b900be96bfacb1771f37d"',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     'last-modified': 'Tue, 28 Aug 2018 23:12:52 GMT',
+22 silly get     vary: 'accept-encoding, accept',
+22 silly get     'x-amz-meta-rev': '130-353e2d7712484a4ca0f4288cc7849d30',
+22 silly get     server: 'cloudflare' } ]
+23 verbose get saving eslint-config-standard to /Users/lvlei/.npm/registry.npmjs.org/eslint-config-standard/.cache.json
+24 verbose correctMkdir /Users/lvlei/.npm correctMkdir not in flight; initializing
+25 silly fetchPackageMetaData Error: No compatible version found: eslint-config-standard@next
+25 silly fetchPackageMetaData Valid install targets:
+25 silly fetchPackageMetaData 1.0.0, 1.0.1, 1.1.0, 1.1.1, 1.2.0, 1.3.0, 1.3.1, 2.0.0, 2.0.1, 2.0.2, 3.0.0, 3.1.0, 3.2.0, 3.3.0, 3.4.0, 3.4.1, 4.0.0-0, 4.0.0-1, 4.0.0-2, 4.0.0-3, 4.0.0-4, 4.0.0-5, 4.0.0, 4.1.0, 4.2.0, 4.3.0, 4.3.1, 4.3.2, 4.4.0, 5.0.0, 5.1.0, 5.2.0, 5.3.0, 5.3.1, 5.3.2, 5.3.3, 5.3.4, 5.3.5, 6.0.0-beta.0, 6.0.0-beta.1, 6.0.0-beta.2, 6.0.0-beta.3, 6.0.0, 6.0.1, 6.1.0, 6.2.0, 6.2.1, 7.0.0-beta.0, 7.0.0, 8.0.0-beta.0, 7.0.1, 8.0.0-beta.1, 7.0.2, 7.0.3, 7.1.0, 8.0.0-beta.2, 8.0.0, 10.0.0, 10.1.0, 10.2.0, 10.2.1, 11.0.0-beta.0, 11.0.0, 12.0.0-alpha.0, 12.0.0
+25 silly fetchPackageMetaData
+25 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+25 silly fetchPackageMetaData     at /Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+25 silly fetchPackageMetaData     at /Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+25 silly fetchPackageMetaData     at saved (/Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+25 silly fetchPackageMetaData     at /Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+25 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:114:15)
+25 silly fetchPackageMetaData  error for eslint-config-standard@next { Error: No compatible version found: eslint-config-standard@next
+25 silly fetchPackageMetaData Valid install targets:
+25 silly fetchPackageMetaData 1.0.0, 1.0.1, 1.1.0, 1.1.1, 1.2.0, 1.3.0, 1.3.1, 2.0.0, 2.0.1, 2.0.2, 3.0.0, 3.1.0, 3.2.0, 3.3.0, 3.4.0, 3.4.1, 4.0.0-0, 4.0.0-1, 4.0.0-2, 4.0.0-3, 4.0.0-4, 4.0.0-5, 4.0.0, 4.1.0, 4.2.0, 4.3.0, 4.3.1, 4.3.2, 4.4.0, 5.0.0, 5.1.0, 5.2.0, 5.3.0, 5.3.1, 5.3.2, 5.3.3, 5.3.4, 5.3.5, 6.0.0-beta.0, 6.0.0-beta.1, 6.0.0-beta.2, 6.0.0-beta.3, 6.0.0, 6.0.1, 6.1.0, 6.2.0, 6.2.1, 7.0.0-beta.0, 7.0.0, 8.0.0-beta.0, 7.0.1, 8.0.0-beta.1, 7.0.2, 7.0.3, 7.1.0, 8.0.0-beta.2, 8.0.0, 10.0.0, 10.1.0, 10.2.0, 10.2.1, 11.0.0-beta.0, 11.0.0, 12.0.0-alpha.0, 12.0.0
+25 silly fetchPackageMetaData
+25 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+25 silly fetchPackageMetaData     at /Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+25 silly fetchPackageMetaData     at /Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+25 silly fetchPackageMetaData     at saved (/Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+25 silly fetchPackageMetaData     at /Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+25 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:114:15) code: 'ETARGET' }
+26 silly rollbackFailedOptional Starting
+27 silly rollbackFailedOptional Finishing
+28 silly runTopLevelLifecycles Finishing
+29 silly install printInstalled
+30 verbose stack Error: No compatible version found: eslint-config-standard@next
+30 verbose stack Valid install targets:
+30 verbose stack 1.0.0, 1.0.1, 1.1.0, 1.1.1, 1.2.0, 1.3.0, 1.3.1, 2.0.0, 2.0.1, 2.0.2, 3.0.0, 3.1.0, 3.2.0, 3.3.0, 3.4.0, 3.4.1, 4.0.0-0, 4.0.0-1, 4.0.0-2, 4.0.0-3, 4.0.0-4, 4.0.0-5, 4.0.0, 4.1.0, 4.2.0, 4.3.0, 4.3.1, 4.3.2, 4.4.0, 5.0.0, 5.1.0, 5.2.0, 5.3.0, 5.3.1, 5.3.2, 5.3.3, 5.3.4, 5.3.5, 6.0.0-beta.0, 6.0.0-beta.1, 6.0.0-beta.2, 6.0.0-beta.3, 6.0.0, 6.0.1, 6.1.0, 6.2.0, 6.2.1, 7.0.0-beta.0, 7.0.0, 8.0.0-beta.0, 7.0.1, 8.0.0-beta.1, 7.0.2, 7.0.3, 7.1.0, 8.0.0-beta.2, 8.0.0, 10.0.0, 10.1.0, 10.2.0, 10.2.1, 11.0.0-beta.0, 11.0.0, 12.0.0-alpha.0, 12.0.0
+30 verbose stack
+30 verbose stack     at pickVersionFromRegistryDocument (/Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+30 verbose stack     at /Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+30 verbose stack     at /Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+30 verbose stack     at saved (/Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+30 verbose stack     at /Users/lvlei/.nvm/versions/node/v7.6.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+30 verbose stack     at FSReqWrap.oncomplete (fs.js:114:15)
+31 verbose cwd /Users/lvlei/Desktop/git/my-vue-demo
+32 error Darwin 17.7.0
+33 error argv "/Users/lvlei/.nvm/versions/node/v7.6.0/bin/node" "/Users/lvlei/.nvm/versions/node/v7.6.0/bin/npm" "install" "eslint-config-standard@next"
+34 error node v7.6.0
+35 error npm  v4.1.2
+36 error code ETARGET
+37 error notarget No compatible version found: eslint-config-standard@next
+37 error notarget Valid install targets:
+37 error notarget 1.0.0, 1.0.1, 1.1.0, 1.1.1, 1.2.0, 1.3.0, 1.3.1, 2.0.0, 2.0.1, 2.0.2, 3.0.0, 3.1.0, 3.2.0, 3.3.0, 3.4.0, 3.4.1, 4.0.0-0, 4.0.0-1, 4.0.0-2, 4.0.0-3, 4.0.0-4, 4.0.0-5, 4.0.0, 4.1.0, 4.2.0, 4.3.0, 4.3.1, 4.3.2, 4.4.0, 5.0.0, 5.1.0, 5.2.0, 5.3.0, 5.3.1, 5.3.2, 5.3.3, 5.3.4, 5.3.5, 6.0.0-beta.0, 6.0.0-beta.1, 6.0.0-beta.2, 6.0.0-beta.3, 6.0.0, 6.0.1, 6.1.0, 6.2.0, 6.2.1, 7.0.0-beta.0, 7.0.0, 8.0.0-beta.0, 7.0.1, 8.0.0-beta.1, 7.0.2, 7.0.3, 7.1.0, 8.0.0-beta.2, 8.0.0, 10.0.0, 10.1.0, 10.2.0, 10.2.1, 11.0.0-beta.0, 11.0.0, 12.0.0-alpha.0, 12.0.0
+38 error notarget This is most likely not a problem with npm itself.
+38 error notarget In most cases you or one of your dependencies are requesting
+38 error notarget a package version that doesn't exist.
+39 verbose exit [ 1, true ]
