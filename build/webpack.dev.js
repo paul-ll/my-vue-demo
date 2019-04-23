@@ -19,12 +19,31 @@ const devConfig = {
 			'/api':'http://localhost:3000'
 		}
 	},
+	module:{
+	rules:[{
+			test: /\.css$/,
+			use: [
+				'style-loader', 
+				'css-loader', 
+				'postcss-loader'
+			]
+		},
+		{
+			test: /\.scss$/,
+			use: [
+				'style-loader', 
+				'css-loader', 
+				'sass-loader',
+				'postcss-loader'
+			]
+		}]
+	},
 	plugins:[
 	new webpack.HotModuleReplacementPlugin()
 	],
-	//开发环境
-	optimization:{
-		usedExports:true
+	output:{
+		filename: '[name].js',
+		chunkFilename: '[name].js',
 	}
 }
 

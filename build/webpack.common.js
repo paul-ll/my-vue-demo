@@ -24,22 +24,6 @@ module.exports = {
 					limit:2048
 				}
 			}
-		},{
-			test: /\.css$/,
-			use: [
-				'style-loader', 
-				'css-loader', 
-				'postcss-loader'
-			]
-		},
-		{
-			test: /\.scss$/,
-			use: [
-				'style-loader', 
-				'css-loader', 
-				'sass-loader',
-				'postcss-loader'
-			]
 		},
 		{
 			test:/\.(eot|ttf|svg)$/,
@@ -55,9 +39,36 @@ module.exports = {
 	}), 
 	new CleanWebpackPlugin(),
 	],
+	optimization:{
+		runtimeChunk:{
+			name:'runtime'
+		},
+		//开发环境
+		usedExports:true,
+		splitChunks:{
+	      chunks: 'all', //async异步代码生效  all所有代码生效 initial 同步代码分割
+	      // minSize: 30000,
+	      // maxSize: 0,
+	      // minChunks: 1, //最小引入次数
+	      // maxAsyncRequests: 5, //最大请求
+	      // maxInitialRequests: 3, //首页入口文件
+	      // automaticNameDelimiter: '~', //文件生成链接符
+	      // name: true,
+	      cacheGroups: {
+	        vendors: {
+	          test: /[\\/]node_modules[\\/]/,
+	          priority: -10,
+	          name: 'vendors'
+	        },
+	        default: false
+	      }
+	    }
+	},
+	performance: false,
 	output:{
 		// publicPath:'./', //上传cdn
-		filename: '[name].js',
-		path:path.resolve(__dirname, 'dist')
+		// filename: '[name].js',
+		// chunkFilename: '[name].chunk.js',
+		path:path.resolve(__dirname, '../dist')
 	}
 }
